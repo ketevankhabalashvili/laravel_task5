@@ -3,7 +3,7 @@
 
     This is test mail!
 
-    @component('mail::button', ['url' => $mailInfo['url']])
+    @component('mail::button', ['url' => $mail['url']])
         Click!
     @endcomponent
 
