@@ -1,5 +1,5 @@
 @component('mail::message')
-    {{ $mailInfo['title'] }}
+    {{ $mail['title'] }}
 
     This is test mail!
 
